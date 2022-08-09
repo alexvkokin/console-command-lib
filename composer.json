@@ -1,0 +1,21 @@
+{
+    "name": "alexvkokin/console-command-lib",
+    "description": "Библиотека для создания консольных команд",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alexvkokin\\ConsoleCommandLib\\Src\\": "Src/",
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Kokin"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4"
+    }
+}
